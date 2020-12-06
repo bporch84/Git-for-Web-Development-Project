@@ -19,7 +19,7 @@ https://codepen.io/bporch/pen/VwKebjY
 9. How many times can I use the same id on a page?
     Once
 10. What is a class?
-    A class is like an idea except you can use it on multiple elements.
+    A class is like an ID except you can use it on multiple elements.
 11. What elements can I add a class to?
     All of them.
 12. How many times can I use the same class on a page?
@@ -43,10 +43,11 @@ https://codepen.io/bporch/pen/VwKebjY
 21. How do we select a p element with a single class of “human””?
     p.human
 22. What is a parent child selector? When would this be useful? 
-    The parent child selector is used to style of specific child in the parent element, so you would use it if you had multiple children and wanted to style them differently.
+    The parent child selector is used to style a specific child in the parent element, so you would use it if you had multiple children and wanted to style them differently.
 23. How do you select all links within a div with the class of sidebar?
-    
+    a.sidebar
 24. What is a pseudo selector?
+    A pseudo selector works on a selector when it's in a current state such as when you are hovering over it.
 25. What do we use the change the spacing between lines?
     line-height
 26. What do we use to change the spacing between letters?
@@ -83,5 +84,8 @@ Stretch Questions
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
     
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-
-5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+Block: Div, Footer, Header
+Inline: Span, a
+Inline-Block: Img
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    The box model consists of the content, padding, border, and margin. Each takes up its own box outside of the previous one.
